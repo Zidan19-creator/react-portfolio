@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  // Navigation links allow users to access all portfolio pages
   return (
     <nav className="navbar">
       <Link to="/" className="logo">

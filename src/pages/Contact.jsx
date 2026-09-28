@@ -1,3 +1,4 @@
+{/* Defines the routes for each page of the portfolio */}
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function Contact() {
     });
   }
 
+  // Prevents the default form submission and redirects the user to Home
   function handleSubmit(event) {
     event.preventDefault();
 

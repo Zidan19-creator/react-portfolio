@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-
+      {/* Defines the routes for each page of the portfolio */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
